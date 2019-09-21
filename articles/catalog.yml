@@ -1,11 +1,18 @@
 PREDEF:
-  - preface.re
-
-# この順で記事が生成される
+  - 00_intro_all.re
 CHAPS:
-  - start.re
-  - arduino.re
+  - 導入編:
+    - 01_intro_graphql.re
+    - 02_intro_appsync.re
+    - 03_intro_amplify.re
+  - 実践編:
+    - 05_practice_setup.re
+    - 07_practice_api.re
+    - 06_practice_auth.re
+    - 07_model_crud_by_query_mutation.re
+    - subscriptions_use_by_react_hooks.re
+    - 10_practice_deploy.re
 APPENDIX:
 
 POSTDEF:
-  - contributors.re
+
