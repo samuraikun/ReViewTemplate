@@ -10,7 +10,10 @@ jobs:
             - npm-cache-{{ checksum "package-lock.json" }}
       - run:
           name: sass install
-          command: gem install sass -v "3.4.25" review-peg -v "0.2.2"
+          command: gem install sass -v "3.4.25"
+      - run:
+          name: review-peg install
+          command: gem install review-peg -v "0.2.2"
       - run:
           name: Setup
           command: npm install
